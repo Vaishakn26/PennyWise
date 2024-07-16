@@ -1,0 +1,59 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.budgetapp.MainActivity" >
+
+  
+
+    
+     <item
+        android:id="@+id/action_rest"
+        android:orderInCategory="100"
+        android:title="Nearby Restaurent"
+        app:showAsAction="never"/>
+     
+      <item
+        android:id="@+id/action_mall"
+        android:orderInCategory="100"
+        android:title="Nearby mall"
+        app:showAsAction="never"/>
+      
+       <item
+        android:id="@+id/action_masjd"
+        android:orderInCategory="100"
+        android:title="Nearby masjid"
+        app:showAsAction="never"/>
+       
+        <item
+        android:id="@+id/action_templ"
+        android:orderInCategory="100"
+        android:title="Nearby temple"
+        app:showAsAction="never"/>
+        
+         <item
+        android:id="@+id/action_chrch"
+        android:orderInCategory="100"
+        android:title="Nearby church"
+        app:showAsAction="never"/>
+        
+       
+      <item
+        android:id="@+id/action_fb"
+        android:orderInCategory="100"
+        android:title="feed back"
+        app:showAsAction="never"/>
+        
+      <item
+        android:id="@+id/action_change"
+        android:orderInCategory="100"
+        android:title="Change Password"
+        app:showAsAction="never"/>
+      <item
+        android:id="@+id/action_logout"
+        android:orderInCategory="100"
+        android:title="Logout"
+        app:showAsAction="never"/>
+      
+    
+
+</menu>

@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingHorizontal="18dp"
+    tools:context=".Destination"
+    android:background="@drawable/bkgd" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="Search By"
+        android:textColor="@color/dark_blue"
+        android:textSize="30dp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:layout_marginTop="21dp"
+        android:id="@+id/btn_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/trans_purple"
+        android:text="Category"
+        android:padding="12dp"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/btn_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/trans_purple"
+        android:text="City"
+        android:padding="12dp"
+        android:textSize="18dp" />
+
+</LinearLayout>

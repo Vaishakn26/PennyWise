@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BudgetPlace"
+    android:orientation="vertical">
+    <include layout="@layout/toolbar" />
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="25dp"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_height="250dp"
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:scaleType="fitXY"
+                android:id="@+id/i1" />
+            <TextView
+                android:id="@+id/t1"
+                android:textSize="21sp"
+                android:textColor="@color/black"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" />
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp" />
+            <TextView
+                android:id="@+id/t3"
+                android:layout_width="match_parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" />
+            <TextView
+                android:id="@+id/t4"
+                android:layout_width="match_parent"
+                android:textSize="18sp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" />
+            <TextView
+                android:id="@+id/t5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:layout_marginBottom="20dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
